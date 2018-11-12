@@ -1,0 +1,5 @@
+$afnms-primary: mat-palette($mat-indigo, 800, 300, 900);
+$afnms-accent: mat-palette($mat-light-blue);
+$afnms-warn: mat-palette($mat-pink, 600);
+
+$afnms-theme: mat-light-theme($afnms-primary, $afnms-accent, $afnms-warn);

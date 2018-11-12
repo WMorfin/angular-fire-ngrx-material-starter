@@ -1,0 +1,9 @@
+$afnms-light-primary: mat-palette($mat-grey, 200, 500, 300);
+$afnms-light-accent: mat-palette($mat-brown, 200);
+$afnms-light-warn: mat-palette($mat-deep-orange, 200);
+
+$afnms-light-theme: mat-light-theme(
+  $afnms-light-primary,
+  $afnms-light-accent,
+  $afnms-light-warn
+);

@@ -1,0 +1,9 @@
+$afnms-black-primary: mat-palette($mat-grey, 700, 300, 900);
+$afnms-black-accent: mat-palette($mat-blue-grey, 400);
+$afnms-black-warn: mat-palette($mat-red, 500);
+
+$afnms-black-theme: mat-dark-theme(
+  $afnms-black-primary,
+  $afnms-black-accent,
+  $afnms-black-warn
+);
